@@ -2,7 +2,7 @@
 
 # RPN Calculator
 
-Reverse Polish Notation (RPN) Calculator command line utility and application.
+Reverse Polish Notation (RPN) Calculator command line utility.
 
 ## Getting Started
 
@@ -18,13 +18,13 @@ bundle install
 
 There are two modes of operation. RPN calculations via interactive CLI and an RPN calculation via an expression argument.
 
-**Starting an interactive CLI session**
+**Starting an interactive CLI session**  
 Enter `./bin/rpncalculator -s` from the project root. 
 Of course, you can navigate into the `bin` directory and enter `./rpncalculator -s`
 
 The `-s` option is shorthand for `--start`, which may also be used begin an interactive CLI session.
 
-**Evaluating an expression only**
+**Evaluating an expression only**  
 RPNCalculator may evaluate an expression via the -e option, without starting an interactive session. Currently the expression result is outputted to STDOUT. This may be useful for interfacing with other technologies (i.e. WebSocket, file, or TCP socket).
 
 Examples: 
@@ -37,12 +37,13 @@ or
 
 What things you need to install the software and how to install them
 
-Ruby v. 2+
+Ruby v. 2+  
 Bundler v. 1+
 
 ## Running the tests
 
-RPNCalculator uses Minitest to run unit tests on the appliction's primary components.
+RPNCalculator uses [Minitest](https://github.com/seattlerb/minitest) to run unit tests on the appliction's primary components.
+
 To run the test suite, simply enter `rake test`.
 
 ### Style tests
