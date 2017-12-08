@@ -9,12 +9,14 @@ class UIOutput
     "\nc - clear result and operand stack"\
     "\n\nOther Commands:"\
     "\nl - list commands"\
-    "\nq - quit\n".freeze
+    "\nq - quit\n"\
+    "\nExample expression:"\
+    "\n15 7 1 1 + - / 3 * 2 1 1 + + -"\
+    "\n\nSupported operators:"\
+    "\n+ - / *\n".freeze
 
   WELCOME_MESSAGE_TEXT = 'Welcome to the RPN Calculator CLI!'\
-    "\nYou may begin RPN calculations"\
-    "\nexample:"\
-    "\n> 1 2 3 + -".freeze
+    "\nYou may begin RPN calculations\n".freeze
 
   EXIT_MESSAGE_TEXT = "\nExiting RPN Calculator CLI...."\
     "\nGoodbye. Thank you.\n".freeze
