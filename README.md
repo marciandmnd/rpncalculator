@@ -32,13 +32,15 @@ Examples:
 or
 `./bin/rpncalculator --expression='1 2 3 + -'`
 
+### Supported Operating Systems
+
+RPNCalculator functionality has been tested and verified on the following operating systems:
+* Ubuntu 16.04
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-Ruby v. 2+  
-Bundler v. 1+
+[Ruby](https://www.ruby-lang.org/en/) v. 2+
+[Bundler](http://bundler.io/) v. 1+
 
 ## Running the tests
 
