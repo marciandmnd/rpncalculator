@@ -1,5 +1,6 @@
 require 'colorize'
 require 'artii'
+require 'semver'
 
 # UIOutput responsible for printing CLI output to STDOUT
 class UIOutput
@@ -15,7 +16,7 @@ class UIOutput
     "\n\nSupported operators:"\
     "\n+ - / *\n".freeze
 
-  WELCOME_MESSAGE_TEXT = 'Welcome to the RPN Calculator CLI!'\
+  WELCOME_MESSAGE_TEXT = "Welcome to the RPN Calculator CLI #{SemVer.find.to_s}!"\
     "\nYou may begin RPN calculations\n".freeze
 
   EXIT_MESSAGE_TEXT = "\nExiting RPN Calculator CLI...."\
@@ -25,7 +26,7 @@ class UIOutput
     banner = Artii::Base.new(font: 'slant')
     banner = banner.asciify('RPN Calculator')
     puts banner.colorize(:yellow)
-
+    puts SemVer.find.to_s.colorize(:red)
     puts 'RPN Calculator by Marcian Diamond'.colorize(:blue)
     puts 'https://www.marcian.guru'.colorize(:green)
   end
