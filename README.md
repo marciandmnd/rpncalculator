@@ -18,7 +18,7 @@ bundle install
 
 There are two modes of operation. RPN calculations via interactive CLI and an RPN calculation via an expression argument.
 
-**Starting an interactive CLI session**  
+**Starting an interactive CLI session**\  
 Enter `./bin/rpncalculator -s` from the project root. 
 Of course, you can navigate into the `bin` directory and enter `./rpncalculator -s`
 
