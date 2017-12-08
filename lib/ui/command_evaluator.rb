@@ -22,7 +22,7 @@ class CommandEvaluator
       when 'l'
         UIOutput.send(:print_commands)
       when 'q'
-        exit_cli_interface
+        exit
       else
         dispatch_command(:evaluate_expression, command)
       end
@@ -39,10 +39,5 @@ class CommandEvaluator
 
   def self.command_valid?(command)
     VALID_COMMAND_REGEX.match(command)
-  end
-
-  def self.exit_cli_interface
-    UIOutput.print_exit_message
-    exit
   end
 end

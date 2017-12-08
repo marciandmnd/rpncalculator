@@ -17,7 +17,7 @@ class UIOutput
     "\n> 1 2 3 + -".freeze
 
   EXIT_MESSAGE_TEXT = "\nExiting RPN Calculator CLI...."\
-    "\nGoodbye. Thank you.".freeze
+    "\nGoodbye. Thank you.\n".freeze
 
   def self.print_about
     banner = Artii::Base.new(font: 'slant')
