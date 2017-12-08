@@ -39,8 +39,8 @@ RPNCalculator functionality has been tested and verified on the following operat
 
 ### Prerequisites
 
-[Ruby](https://www.ruby-lang.org/en/) v. 2+
-[Bundler](http://bundler.io/) v. 1+
+* [Ruby](https://www.ruby-lang.org/en/) v. 2+
+* [Bundler](http://bundler.io/) v. 1+
 
 ## Running the tests
 
