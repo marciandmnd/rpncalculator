@@ -44,7 +44,7 @@ RPNCalculator functionality has been tested and verified on the following operat
 
 ## Running the tests
 
-RPNCalculator uses [Minitest](https://github.com/seattlerb/minitest) to run unit tests on the appliction's primary components.
+RPNCalculator uses [Minitest](https://github.com/seattlerb/minitest) to run unit tests on the application's primary components.
 
 To run the test suite, simply enter `rake test`.
 
